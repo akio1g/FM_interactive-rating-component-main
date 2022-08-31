@@ -9,7 +9,12 @@ function chooseRate(button) {
 }
 
 function submitRate(rate) {
-    document.getElementById("support-request").classList.toggle("submit-done");
-    document.getElementById("thank-you").classList.toggle("rating-done");
-    document.getElementById("number-rate").innerText = rate;
+    if(rate){
+        document.getElementById("support-request").classList.toggle("submit-done");
+        document.getElementById("thank-you").classList.toggle("rating-done");
+        document.getElementById("number-rate").innerText = rate;
+    } else {
+        alert("SELECT A NUMBER!!");
+    }
+    
 }
