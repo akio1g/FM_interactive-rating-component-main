@@ -1,0 +1,145 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Overpass';
+    font-weight: 400;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.main-content {
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    height: 400px;
+    max-height: 500px;
+}
+
+.support-request {
+    display: flex;
+}
+
+
+
+
+button {
+    cursor: pointer;
+}
+
+.btn-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 16%, 26%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+}
+
+
+.support-request > h1 {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.support-request > p {
+    color: hsl(217, 12%, 63%);
+}
+
+.section-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-buttons > button {
+    background-color: hsl(217, 16%, 26%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 45px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 700;
+}
+
+.submit-done {
+    display: none;
+}
+
+#submit {
+    background-color: hsl(25, 97%, 53%);
+    color: #FFF;
+    border: none;
+    border-radius: 45px;
+    height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.section-buttons > .focus {
+    color: #Fff;
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+.section-buttons > button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #FFF;
+}
+
+.thank-you {
+    display: none;
+}
+
+.rating-done {
+    display: flex;
+    align-items: center;
+}
+
+.rating-done > img {
+    width: 150px;
+}
+
+.rating-done > h3 {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(217, 16%, 26%);
+    border-radius: 45px;
+    line-height: 35px;
+    padding: 5px 15px 0px;
+    text-align: center;
+}
+
+.rating-done > h1 {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.rating-done > p { 
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    line-height: 150%;
+}
+
+
+
